@@ -1,0 +1,375 @@
+Class BenignTraffic:
+    TP: 1860
+    FP: 1
+    FN: 2
+    TN: 18041
+    TPR (Recall): 0.9989
+    FPR: 0.0001
+    FNR: 0.0011
+    Misclassification Rate: 0.0002
+    Accuracy: 0.9989
+
+Class DDoS-ICMP_Flood:
+    TP: 1717
+    FP: 2
+    FN: 0
+    TN: 18185
+    TPR (Recall): 1.0000
+    FPR: 0.0001
+    FNR: 0.0000
+    Misclassification Rate: 0.0001
+    Accuracy: 1.0000
+
+Class Mirai-greeth_flood:
+    TP: 917
+    FP: 1
+    FN: 11
+    TN: 18975
+    TPR (Recall): 0.9881
+    FPR: 0.0001
+    FNR: 0.0119
+    Misclassification Rate: 0.0006
+    Accuracy: 0.9881
+
+Class Mirai-udpplain:
+    TP: 782
+    FP: 0
+    FN: 3
+    TN: 19119
+    TPR (Recall): 0.9962
+    FPR: 0.0000
+    FNR: 0.0038
+    Misclassification Rate: 0.0002
+    Accuracy: 0.9962
+
+Class DDoS-UDP_Flood:
+    TP: 770
+    FP: 0
+    FN: 0
+    TN: 19134
+    TPR (Recall): 1.0000
+    FPR: 0.0000
+    FNR: 0.0000
+    Misclassification Rate: 0.0000
+    Accuracy: 1.0000
+
+Class Mirai-greip_flood:
+    TP: 656
+    FP: 8
+    FN: 2
+    TN: 19238
+    TPR (Recall): 0.9970
+    FPR: 0.0004
+    FNR: 0.0030
+    Misclassification Rate: 0.0005
+    Accuracy: 0.9970
+
+Class DDoS-TCP_Flood:
+    TP: 494
+    FP: 2
+    FN: 2
+    TN: 19406
+    TPR (Recall): 0.9960
+    FPR: 0.0001
+    FNR: 0.0040
+    Misclassification Rate: 0.0002
+    Accuracy: 0.9960
+
+Class DDoS-PSHACK_Flood:
+    TP: 524
+    FP: 2
+    FN: 4
+    TN: 19374
+    TPR (Recall): 0.9924
+    FPR: 0.0001
+    FNR: 0.0076
+    Misclassification Rate: 0.0003
+    Accuracy: 0.9924
+
+Class DDoS-SYN_Flood:
+    TP: 506
+    FP: 0
+    FN: 0
+    TN: 19398
+    TPR (Recall): 1.0000
+    FPR: 0.0000
+    FNR: 0.0000
+    Misclassification Rate: 0.0000
+    Accuracy: 1.0000
+
+Class DDoS-RSTFINFlood:
+    TP: 475
+    FP: 0
+    FN: 0
+    TN: 19429
+    TPR (Recall): 1.0000
+    FPR: 0.0000
+    FNR: 0.0000
+    Misclassification Rate: 0.0000
+    Accuracy: 1.0000
+
+Class DDoS-SynonymousIP_Flood:
+    TP: 309
+    FP: 4
+    FN: 3
+    TN: 19588
+    TPR (Recall): 0.9904
+    FPR: 0.0002
+    FNR: 0.0096
+    Misclassification Rate: 0.0004
+    Accuracy: 0.9904
+
+Class DoS-UDP_Flood:
+    TP: 234
+    FP: 0
+    FN: 1
+    TN: 19669
+    TPR (Recall): 0.9957
+    FPR: 0.0000
+    FNR: 0.0043
+    Misclassification Rate: 0.0001
+    Accuracy: 0.9957
+
+Class DDoS-ICMP_Fragmentation:
+    TP: 1623
+    FP: 22
+    FN: 4
+    TN: 18255
+    TPR (Recall): 0.9975
+    FPR: 0.0012
+    FNR: 0.0025
+    Misclassification Rate: 0.0013
+    Accuracy: 0.9975
+
+Class DoS-TCP_Flood:
+    TP: 146
+    FP: 19
+    FN: 12
+    TN: 19727
+    TPR (Recall): 0.9241
+    FPR: 0.0010
+    FNR: 0.0759
+    Misclassification Rate: 0.0016
+    Accuracy: 0.9241
+
+Class MITM-ArpSpoofing:
+    TP: 125
+    FP: 13
+    FN: 17
+    TN: 19749
+    TPR (Recall): 0.8803
+    FPR: 0.0007
+    FNR: 0.1197
+    Misclassification Rate: 0.0015
+    Accuracy: 0.8803
+
+Class DoS-SYN_Flood:
+    TP: 110
+    FP: 0
+    FN: 0
+    TN: 19794
+    TPR (Recall): 1.0000
+    FPR: 0.0000
+    FNR: 0.0000
+    Misclassification Rate: 0.0000
+    Accuracy: 1.0000
+
+Class DDoS-UDP_Fragmentation:
+    TP: 63
+    FP: 0
+    FN: 0
+    TN: 19841
+    TPR (Recall): 1.0000
+    FPR: 0.0000
+    FNR: 0.0000
+    Misclassification Rate: 0.0000
+    Accuracy: 1.0000
+
+Class DDoS-ACK_Fragmentation:
+    TP: 50
+    FP: 0
+    FN: 0
+    TN: 19854
+    TPR (Recall): 1.0000
+    FPR: 0.0000
+    FNR: 0.0000
+    Misclassification Rate: 0.0000
+    Accuracy: 1.0000
+
+Class DNS_Spoofing:
+    TP: 42
+    FP: 0
+    FN: 1
+    TN: 19861
+    TPR (Recall): 0.9767
+    FPR: 0.0000
+    FNR: 0.0233
+    Misclassification Rate: 0.0001
+    Accuracy: 0.9767
+
+Class Recon-HostDiscovery:
+    TP: 21
+    FP: 3
+    FN: 4
+    TN: 19876
+    TPR (Recall): 0.8400
+    FPR: 0.0002
+    FNR: 0.1600
+    Misclassification Rate: 0.0004
+    Accuracy: 0.8400
+
+Class Recon-OSScan:
+    TP: 24
+    FP: 1
+    FN: 1
+    TN: 19878
+    TPR (Recall): 0.9600
+    FPR: 0.0001
+    FNR: 0.0400
+    Misclassification Rate: 0.0001
+    Accuracy: 0.9600
+
+Class Recon-PortScan:
+    TP: 16
+    FP: 12
+    FN: 7
+    TN: 19869
+    TPR (Recall): 0.6957
+    FPR: 0.0006
+    FNR: 0.3043
+    Misclassification Rate: 0.0010
+    Accuracy: 0.6957
+
+Class DoS-HTTP_Flood:
+    TP: 12
+    FP: 0
+    FN: 1
+    TN: 19891
+    TPR (Recall): 0.9231
+    FPR: 0.0000
+    FNR: 0.0769
+    Misclassification Rate: 0.0001
+    Accuracy: 0.9231
+
+Class VulnerabilityScan:
+    TP: 1530
+    FP: 0
+    FN: 0
+    TN: 18374
+    TPR (Recall): 1.0000
+    FPR: 0.0000
+    FNR: 0.0000
+    Misclassification Rate: 0.0000
+    Accuracy: 1.0000
+
+Class DDoS-HTTP_Flood:
+    TP: 22
+    FP: 0
+    FN: 3
+    TN: 19879
+    TPR (Recall): 0.8800
+    FPR: 0.0000
+    FNR: 0.1200
+    Misclassification Rate: 0.0002
+    Accuracy: 0.8800
+
+Class DDoS-SlowLoris:
+    TP: 9
+    FP: 5
+    FN: 11
+    TN: 19879
+    TPR (Recall): 0.4500
+    FPR: 0.0003
+    FNR: 0.5500
+    Misclassification Rate: 0.0008
+    Accuracy: 0.4500
+
+Class DictionaryBruteForce:
+    TP: 11
+    FP: 2
+    FN: 7
+    TN: 19884
+    TPR (Recall): 0.6111
+    FPR: 0.0001
+    FNR: 0.3889
+    Misclassification Rate: 0.0005
+    Accuracy: 0.6111
+
+Class SqlInjection:
+    TP: 9
+    FP: 12
+    FN: 2
+    TN: 19881
+    TPR (Recall): 0.8182
+    FPR: 0.0006
+    FNR: 0.1818
+    Misclassification Rate: 0.0007
+    Accuracy: 0.8182
+
+Class CommandInjection:
+    TP: 1367
+    FP: 0
+    FN: 2
+    TN: 18535
+    TPR (Recall): 0.9985
+    FPR: 0.0000
+    FNR: 0.0015
+    Misclassification Rate: 0.0001
+    Accuracy: 0.9985
+
+Class Recon-PingSweep:
+    TP: 1161
+    FP: 4
+    FN: 22
+    TN: 18717
+    TPR (Recall): 0.9814
+    FPR: 0.0002
+    FNR: 0.0186
+    Misclassification Rate: 0.0013
+    Accuracy: 0.9814
+
+Class Uploading_Attack:
+    TP: 1101
+    FP: 1
+    FN: 2
+    TN: 18800
+    TPR (Recall): 0.9982
+    FPR: 0.0001
+    FNR: 0.0018
+    Misclassification Rate: 0.0002
+    Accuracy: 0.9982
+
+Class Backdoor_Malware:
+    TP: 1019
+    FP: 0
+    FN: 3
+    TN: 18882
+    TPR (Recall): 0.9971
+    FPR: 0.0000
+    FNR: 0.0029
+    Misclassification Rate: 0.0002
+    Accuracy: 0.9971
+
+Class BrowserHijacking:
+    TP: 1016
+    FP: 13
+    FN: 2
+    TN: 18873
+    TPR (Recall): 0.9980
+    FPR: 0.0007
+    FNR: 0.0020
+    Misclassification Rate: 0.0008
+    Accuracy: 0.9980
+
+Class XSS:
+    TP: 1054
+    FP: 2
+    FN: 0
+    TN: 18848
+    TPR (Recall): 1.0000
+    FPR: 0.0001
+    FNR: 0.0000
+    Misclassification Rate: 0.0001
+    Accuracy: 1.0000
+
+Overall Accuracy: 0.9935
